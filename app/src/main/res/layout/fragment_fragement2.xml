@@ -1,0 +1,30 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Fragment"
+        android:textSize="32dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/second_fragement"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second_fragement"
+        android:layout_centerInParent="true"
+        android:text="Next"
+        android:id="@+id/button_next"
+        />
+
+
+
+
+
+
+</RelativeLayout>
